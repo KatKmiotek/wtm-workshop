@@ -8,7 +8,8 @@
     "test:headed": "npx playwright test --headed",
     "test:debug": "npx playwright test --debug",
     "lint": "npx eslint .",
-    "lint:fix": "npx eslint --fix ."
+    "lint:fix": "npx eslint --fix .",
+    "update": "npx playwright test --update-snapshots"
   },
   "keywords": [],
   "author": "",
